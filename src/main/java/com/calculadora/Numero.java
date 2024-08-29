@@ -4,17 +4,14 @@ public class Numero {
 
     private int numero;
 
-    public Numero(){
-    }
-
-    public Numero(int numero){
-        this.numero = numero;
+    public Numero() {
     }
 
     int getNumero() {
         return numero;
     }
-    int setNumero(int numero){
+
+    int setNumero(int numero) {
         this.numero = numero;
         return numero;
     }
